@@ -37,7 +37,7 @@ ab-testing-retention-analysis/
 
 ## 🚀 Як запустити
 ```bash
-git clone https://github.com/YOUR_USERNAME/ab-testing-retention-analysis.git
+git clone https://github.com/dariia-chornous/ab-testing-retention-analysis.git
 cd ab-testing-retention-analysis
 pip install pandas scipy statsmodels matplotlib seaborn
 jupyter notebook ab_testing_retention_analysis.ipynb
