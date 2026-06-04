@@ -32,6 +32,7 @@ ab-testing-retention-analysis/
 ├── ab_testing_retention_analysis.ipynb
 ├── data/
 │   └── cookie_cats.csv
+├── .gitignore
 └── README.md
 ```
 
