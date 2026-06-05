@@ -43,5 +43,7 @@ cd ab-testing-retention-analysis
 pip install pandas scipy statsmodels matplotlib seaborn
 jupyter notebook ab_testing_retention_analysis.ipynb
 ```
+Repository updated.
+
 ---
 *Датасет: Cookie Cats — Kaggle*
