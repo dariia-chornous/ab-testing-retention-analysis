@@ -1,51 +1,4 @@
 # 🎮 A/B Testing & Retention Analysis — Cookie Cats
-> A data-driven evaluation of a product change in a mobile game, focused on user retention and evidence-based product decision-making.
-
-## 📌 Project Overview
-Cookie Cats is a mobile game in which players periodically encounter progression gates.
-In this A/B test, the first gate was moved from level 30 (`gate_30`) to level 40 (`gate_40`). The goal of the analysis was to evaluate whether this product change affected user retention 1 and 7 days after installing the game.
-The project covers the full statistical analysis workflow — from hypothesis formulation and sample size estimation to statistical significance testing and interpretation of the results for product decision-making.
-
-
-## 🛠️ Технічний стек
-| Задача              | Інструмент               |
-| ------------------- | ------------------------ |
-| Обробка даних       | pandas                   |
-| Статистичний аналіз | scipy.stats, statsmodels |
-| Візуалізація        | matplotlib, seaborn      |
-
-## 📊 Що зроблено
-**Розрахунок розміру вибірки** — визначено мінімальну кількість користувачів (≈24 638 на групу) для виявлення різниці в retention з потужністю 80% при α = 0.05.
-**Z-тест для двох пропорцій** — перевірка статистичної значущості різниці в retention_7 між групами.
-**χ²-тест** — перевірка наявності статистично значущої залежності між версією гри та retention користувачів.
-**Довірчі інтервали** — побудовано 95% confidence intervals для контрольної та тестової груп.
-## 📈 Ключові результати
-| Метрика          | gate_30 (control) | gate_40 (treatment) |
-| ---------------- | :---------------: | :-----------------: |
-| Retention 7d     |       19.0%       |        18.2%        |
-| 95% CI           |   [0.187, 0.194]  |    [0.178, 0.186]   |
-| p-value (z-test) |     **0.002**     |          —          |
-| χ²               |     **9.959**     |          —          |
-**Висновок:** перенесення воріт на 40-й рівень статистично значуще знизило 7-денне утримання користувачів. Результати аналізу свідчать, що зміна негативно вплинула на retention та потребує додаткового тестування перед впровадженням.
-
-## 📁 Структура проєкту
-```text
-ab-testing-retention-analysis/
-├── ab_testing_retention_analysis.ipynb
-├── data/
-│   └── cookie_cats.csv
-├── .gitignore
-└── README.md
-```
-
-## 🚀 Як запустити
-```bash
-git clone https://github.com/dariia-chornous/ab-testing-retention-analysis.git
-cd ab-testing-retention-analysis
-pip install pandas scipy statsmodels matplotlib seaborn
-
-
-# 🎮 A/B Testing & Retention Analysis — Cookie Cats
 
 > A data-driven evaluation of a product change in a mobile game, focused on user retention and evidence-based product decision-making.
 
@@ -127,4 +80,4 @@ pip install pandas scipy statsmodels matplotlib seaborn
 jupyter notebook ab_testing_analysis.ipynb
 ```
 ---
-*Датасет: Cookie Cats — Kaggle*
+*Dataset: Cookie Cats — Kaggle*
