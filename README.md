@@ -59,7 +59,6 @@ The analysis included:
 |---|---|
 | Data Processing | Python, Pandas |
 | Statistical Analysis | SciPy, Statsmodels |
-| Data Visualization | Matplotlib, Seaborn |
 | Analysis Environment | Jupyter Notebook |
 
 ## 📁 Project Structure
@@ -78,7 +77,7 @@ ab-testing-retention-analysis/
 ```bash
 git clone https://github.com/dariia-chornous/ab-testing-retention-analysis.git
 cd ab-testing-retention-analysis
-pip install pandas scipy statsmodels matplotlib seaborn
+pip install pandas scipy statsmodels
 jupyter notebook ab_testing_analysis.ipynb
 ```
 ---
