@@ -71,6 +71,7 @@ ab-testing-retention-analysis/
 │   └── cookie_cats.csv
 ├── .gitignore
 └── README.md
+```
 
 ## 🚀 How to Run
 
